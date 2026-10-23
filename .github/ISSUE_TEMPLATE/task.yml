@@ -1,0 +1,26 @@
+name: Track task
+description: >
+  개발 작업을 등록하기 위한 이슈 템플릿
+labels: ["Task"]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: >
+        description of the task
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reference
+      description: >
+        any complementary information
+    validations:
+      required: false
+  - type: upload
+    attributes:
+      label: Upload relevant files
+      description: >
+        drag and drop any relevant files
+    validations:
+      required: false

@@ -2,6 +2,7 @@ name: Track task
 description: >
   개발 작업을 등록하기 위한 이슈 템플릿
 labels: ["Task"]
+assignees: ["ryanTheLion200"]
 body:
   - type: textarea
     attributes:
@@ -15,12 +16,5 @@ body:
       label: Reference
       description: >
         any complementary information
-    validations:
-      required: false
-  - type: upload
-    attributes:
-      label: Upload relevant files
-      description: >
-        drag and drop any relevant files
     validations:
       required: false

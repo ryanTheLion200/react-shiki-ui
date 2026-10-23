@@ -1,0 +1,8 @@
+<type>(scope): <description>
+
+# type: feat, fix, chore, refactor, docs, revert, test
+# scope (optional): e.g. feat(code-gen): code-gen util
+# body (optional): explain what changed and why.
+# footer (optional): e.g. Refs: #123
+# Breaking change: add ! before the colon, e.g. feat(api)!: ...
+# and/or add a footer: BREAKING CHANGE: <description>
